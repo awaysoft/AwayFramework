@@ -17,7 +17,7 @@ struct _JSType {
     unsigned char type;
     void * data;
 };
-
+/*
 char *JSTypeToString (JSTypeRef ref)
 {
     char *str = NULL;
@@ -90,3 +90,4 @@ int JSTypeToBoolean (JSTypeRef ref)
     }
     return b;
 }
+*/
