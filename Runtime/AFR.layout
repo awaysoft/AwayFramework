@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="astring.c" open="0" top="0" tabpos="0">
+		<Cursor position="13646" topLine="605" />
+	</File>
+	<File name="astringlist.c" open="0" top="0" tabpos="0">
+		<Cursor position="10840" topLine="504" />
+	</File>
+	<File name="common.c" open="1" top="0" tabpos="6">
+		<Cursor position="1087" topLine="0" />
+	</File>
+	<File name="common.h" open="1" top="0" tabpos="7">
+		<Cursor position="303" topLine="0" />
+	</File>
+	<File name="global.c" open="1" top="0" tabpos="4">
+		<Cursor position="380" topLine="3" />
+	</File>
+	<File name="global.h" open="1" top="0" tabpos="5">
+		<Cursor position="350" topLine="7" />
+	</File>
+	<File name="init.c" open="1" top="0" tabpos="2">
+		<Cursor position="9353" topLine="295" />
+	</File>
+	<File name="init.h" open="1" top="0" tabpos="3">
+		<Cursor position="42" topLine="0" />
+	</File>
+	<File name="main.c" open="1" top="0" tabpos="1">
+		<Cursor position="240" topLine="0" />
+	</File>
+	<File name="plugins.c" open="1" top="0" tabpos="10">
+		<Cursor position="689" topLine="0" />
+	</File>
+	<File name="plugins.h" open="1" top="0" tabpos="11">
+		<Cursor position="71" topLine="0" />
+	</File>
+	<File name="plugins/awayconst.c" open="1" top="0" tabpos="16">
+		<Cursor position="3344" topLine="107" />
+	</File>
+	<File name="plugins/awayconst.h" open="1" top="0" tabpos="17">
+		<Cursor position="49" topLine="0" />
+	</File>
+	<File name="plugins/awaymouse.c" open="1" top="0" tabpos="20">
+		<Cursor position="1987" topLine="46" />
+	</File>
+	<File name="plugins/awaymouse.h" open="1" top="0" tabpos="21">
+		<Cursor position="50" topLine="0" />
+	</File>
+	<File name="plugins/awaysystem.c" open="1" top="0" tabpos="22">
+		<Cursor position="1570" topLine="26" />
+	</File>
+	<File name="plugins/awaysystem.h" open="1" top="0" tabpos="23">
+		<Cursor position="121" topLine="0" />
+	</File>
+	<File name="plugins/awaywindow.c" open="1" top="0" tabpos="18">
+		<Cursor position="13044" topLine="411" />
+	</File>
+	<File name="plugins/awaywindow.h" open="1" top="0" tabpos="19">
+		<Cursor position="90" topLine="0" />
+	</File>
+	<File name="plugintype.c" open="1" top="1" tabpos="25">
+		<Cursor position="1051" topLine="31" />
+	</File>
+	<File name="plugintype.h" open="1" top="0" tabpos="26">
+		<Cursor position="110" topLine="0" />
+	</File>
+	<File name="run.c" open="1" top="0" tabpos="12">
+		<Cursor position="1115" topLine="43" />
+	</File>
+	<File name="run.h" open="1" top="0" tabpos="13">
+		<Cursor position="75" topLine="0" />
+	</File>
+	<File name="server.c" open="1" top="0" tabpos="14">
+		<Cursor position="139" topLine="0" />
+	</File>
+	<File name="server.h" open="1" top="0" tabpos="15">
+		<Cursor position="27" topLine="0" />
+	</File>
+	<File name="ui.c" open="1" top="0" tabpos="8">
+		<Cursor position="2615" topLine="0" />
+	</File>
+	<File name="ui.h" open="1" top="0" tabpos="9">
+		<Cursor position="532" topLine="9" />
+	</File>
+</CodeBlocks_layout_file>

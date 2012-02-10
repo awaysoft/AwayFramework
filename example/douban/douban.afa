@@ -1,0 +1,13 @@
+[app]
+title=豆瓣电台
+serial=1-00000-00000001
+version=1
+versionshow=0.1
+frameversion=1
+index=http://douban.fm/swf/53034/radioplayer.swf
+icon=douban.ico
+platform=1
+os=3
+plugins=
+addons=
+

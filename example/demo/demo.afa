@@ -1,0 +1,14 @@
+[app]
+title=AwayFramework Demo
+serial=1-00000-00000002
+version=1
+versionshow=0.1
+frameversion=1
+index=index.html
+#index=http://www.baidu.com
+icon=impress.png
+platform=1
+os=3
+plugins=
+addons=
+

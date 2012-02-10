@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>AwayFramework Demo</title>
+	<style>
+		body{
+			margin: 0;
+			padding: 0;
+			
+		}
+	</style>
+	<script>
+		_mouseX = 0;
+		_mouseY = 0;
+		_windowX = 0;
+		_windowY = 0;
+		_moving = false;
+
+		function mouse_down(e){
+			e = e || window.event;
+			if (e.button != 0) return true;
+			_mouseX = parseInt(Away.System.Mouse.GetX());
+			_mouseY = parseInt(Away.System.Mouse.GetY());
+			_windowX = parseInt(Away.System.Window.GetLeft());
+			_windowY = parseInt(Away.System.Window.GetTop());
+			_moving = true;
+		}
+
+		function mouse_up(e){
+			_moving = false;
+		}
+
+		function mouse_move(e){
+			if (_moving){
+				var x_now = parseInt(Away.System.Mouse.GetX());
+				var y_now = parseInt(Away.System.Mouse.GetY());
+				var x = _windowX + x_now - _mouseX;
+				var y = _windowY + y_now - _mouseY;
+				
+				var str = "Now: X:" + x_now + "&nbsp;&nbsp;&nbsp;Y:" + y_now + "<br>" +
+"X:" + x + "&nbsp;&nbsp;&nbsp;Y:" + y +"<br>" + 
+"window X:" + _windowX + "&nbsp;&nbsp;&nbsp;Y:"  + _windowY + "<br>" +
+"mouse X:" + _mouseX + "&nbsp;&nbsp;&nbsp;Y:" + _mouseY + "<br>" +
+"Position X:" + window.event.x + "&nbsp;&nbsp;&nbsp;Y:" + window.event.y;
+				document.getElementById("mousep").innerHTML = str;
+				Away.System.Window.SetPosition(x, y);
+			}
+		}
+
+		document.onmousemove = mouse_move;
+		document.onmouseup = mouse_up;
+		
+		function on_max_click(){
+			if (Away.System.Window.GetState() != 4)
+				Away.System.Window.Maximize();
+			else
+				Away.System.Window.Restore();
+		}
+	</script>
+</head>
+<body>
+<div style="padding:0;margin:0;width:100%;height:30px;background:#FFCF94;font-size:20px;-webkit-user-select:none" onmousedown="mouse_down();" ondblclick="on_max_click();">
+<span style="float:right"><a href="javascript:Away.System.Window.Minimize()">_</a>&nbsp;<a href="javascript:on_max_click();">口</a>&nbsp;<a href="javascript:window.close();">X</a></span>
+<center>AwayFramework Demo</center></div>
+
+<div style="margin:5px">
+<h1>System Info</h1>
+<h2>Const</h2>
+Away.Const.Platform:<script>document.write(Away.Const.Platform);</script><br />
+Away.Const.Version:<script>document.write(Away.Const.Version);</script><br />
+Away.Const.VersionShow:<script>document.write(Away.Const.VersionShow);</script><br />
+Away.Const.OS:<script>document.write(Away.Const.OS);</script><br />
+Away.Const.OSDetail:<script>document.write(Away.Const.OSDetail);</script><br />
+Away.Const.Screen.Width:<script>document.write(Away.Const.Screen.Width);</script><br />
+Away.Const.Screen.Height:<script>document.write(Away.Const.Screen.Height);</script><br />
+<br />
+<div id="mousep">
+
+</div>
+<h2>System Plugins</h2>
+
+<h2>Test</h2>
+<a href="javascript:alert(window);">Hello</a>
+</div>
+</body>
+</html>
+

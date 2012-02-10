@@ -1,0 +1,13 @@
+[app]
+title=Impress
+serial=1-00000-00000010
+version=1
+versionshow=0.1
+frameversion=1
+index=index.html
+icon=impress.png
+platform=1
+os=3
+plugins=
+addons=
+
